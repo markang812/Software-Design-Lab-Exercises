@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>150</y>
+      <w>210</w>
+      <h>330</h>
+    </coordinates>
+    <panel_attributes>ATM
+--
++bank: object
++account: list
++nameLabel: object
++pinLabel: object
++amountLabel: object
++statusLabel: object
++nameField: object
++pinField: object
++amountField: object
++statusField: object
++balanceButton: object
++depositButton: object
++widthdrawButton: object
++loginButton: object
+--
++login()
++getBalance()
++getWithdraw()
++sendDeposit()
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

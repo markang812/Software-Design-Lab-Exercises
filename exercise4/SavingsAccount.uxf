@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>110</y>
+      <w>210</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>SavingsAccount
+--
++name: String
++pin: integer
++balance: float
++rate: float
+--
++SavingsAccount()
++SavingsAccount(name, pin, balance)
++getBalance(): float
++getName(): String
++deposit(amount)
++widthdraw(amount): String
++computeInterest(): float</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
